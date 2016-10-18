@@ -1,0 +1,18 @@
+os: linux
+dist: trusty # Ubuntu 14.04
+sudo: required
+language: csharp
+dotnet: 1.0.0-preview2-003121
+mono: latest
+script: 
+- cd $TRAVIS_BUILD_DIR/Munch.APNS
+- dotnet restore
+- dotnet build
+- dotnet pack
+
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: nuget push $TRAVIS_BUILD_DIR/Munch.APNS/bin/Debug/Munch.APNS.0.1-beta.nupkg $NUGET_API_KEY -Verbosity detailed
+  on:
+    branch: master

@@ -2,7 +2,7 @@
   "version": "0.1-beta",
   "authors": [ "Daniel Münch" ],
   "packOptions": {},
-  "description": "Apple Push Notification Service Library",
+  "description": "Apple Push Notification Service Library for .NET Core",
   "dependencies": {
     "NETStandard.Library": "1.3.0",
     "Newtonsoft.Json": "9.0.1",
