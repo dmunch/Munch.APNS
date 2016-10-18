@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Munch.APNS", "Munch.APNS\Munch.APNS.xproj", "{64A685EB-82E7-41CE-91E1-55F152A87AB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{124D3A49-E294-4F54-A41A-2B9E892700FC}"
+	ProjectSection(SolutionItems) = preProject
+		..\global.json = ..\global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Munch.APNS.Console", "Munch.APNS.Console\Munch.APNS.Console.xproj", "{0CD932EA-BFBD-407A-9414-807D5B6AA749}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64A685EB-82E7-41CE-91E1-55F152A87AB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A685EB-82E7-41CE-91E1-55F152A87AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A685EB-82E7-41CE-91E1-55F152A87AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A685EB-82E7-41CE-91E1-55F152A87AB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CD932EA-BFBD-407A-9414-807D5B6AA749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD932EA-BFBD-407A-9414-807D5B6AA749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD932EA-BFBD-407A-9414-807D5B6AA749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD932EA-BFBD-407A-9414-807D5B6AA749}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
